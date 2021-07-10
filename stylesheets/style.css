@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat:size=30);
+@font-face
+{
+font-family: Samqaw;
+src: url('/home/gani/.local/share/fonts/Samqaw.ttf');
+}
+*{
+  margin: 0px;
+  padding: 0px;-
+}
+.grid{
+  display: grid;
+  grid-template-columns: 320px 1fr 300px;
+  grid-template-rows: 220px 100000px;
+  grid-template-areas:
+  "logo ban login"
+  "menu main main";
+}
+
+.logo{
+  grid-area: logo;
+  background-color: white;
+  border-bottom: 3px solid grey;
+}
+.banner{
+  grid-area: ban;
+  border-bottom: 3px solid grey;
+  background-color: white;
+}
+.login{
+  grid-area: login;
+  background-color: white;
+  border-bottom: 3px solid grey;
+}
+.menu{
+  grid-area: menu;
+  background-color: white;
+  border-right: 3px solid grey;
+  font-size: 30px;
+}
+.main {
+  grid-area: main;
+  background-color: white;
+}
+.home, .about, .news{
+  width:100%;
+  padding-left:
+  25px;text-align: left;
+  border: 0px solid white;
+  border-bottom: 1px solid rgb(50, 50, 50);
+  height:50px;
+  background-color: white;
+}
+.pbar{
+  color:white;
+  width:100%"
+}
+.input1{
+  width:280px;
+  margin-top:60px;
+  margin-left:10px;
+  height:45px;
+  border-radius: 10px;
+  border-color: rgb(38, 86, 162);
+  border:1px solid rgb(38, 86, 162);
+  font-size:20px;
+}
+.input2{
+  width:280px;
+  margin-top:1px;
+  margin-left:10px;
+  height:45px;
+  border-radius: 10px;
+  border-color: rgb(38, 86, 162);
+  border:1px solid rgb(38, 86, 162);
+  font-size:20px;
+}
+.button1{
+  background-color: rgb(38, 86, 162);
+  border-radius: 10px;
+  width:280px;
+  height:45px;
+  margin-top:5px;
+  margin-left:10px;
+  color:white;
+  font-size: 24px;
+  border:3px solid rgb(38, 86, 162);
+}
+.button2{
+  background-color: rgb(38, 86, 162);
+  border-radius: 10px;
+  width:280px;
+  height:45px;
+  margin-top:10px;
+  margin-left:10px;
+  color:white;
+  font-size: 24px;
+  border:3px solid rgb(38, 86, 162);
+}
+.about-text{
+  margin-left: 20px;
+  font-size: 40px;
+}
+.en{
+  font-family: 'Caveat';
+}
