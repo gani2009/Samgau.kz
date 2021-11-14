@@ -1,17 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat:size=30);
-@font-face
-{
-font-family: Samqaw;
-src: url('/home/gani/.local/share/fonts/Samqaw.ttf');
-}
 *{
   margin: 0px;
   padding: 0px;-
 }
 .grid{
-  display: grid;
-  grid-template-columns: 320px 1fr 300px;
-  grid-template-rows: 220px 100000px;
+  display: inline-grid;
+  grid-template-columns: 320px 1230px 0px;
+  grid-template-rows: 220px auto;
   grid-template-areas:
   "logo ban login"
   "menu main main";
@@ -24,7 +19,6 @@ src: url('/home/gani/.local/share/fonts/Samqaw.ttf');
 }
 .banner{
   grid-area: ban;
-  border-bottom: 3px solid grey;
   background-color: white;
 }
 .login{
@@ -65,42 +59,16 @@ src: url('/home/gani/.local/share/fonts/Samqaw.ttf');
   border:1px solid rgb(38, 86, 162);
   font-size:20px;
 }
-.input2{
-  width:280px;
-  margin-top:1px;
-  margin-left:10px;
-  height:45px;
-  border-radius: 10px;
-  border-color: rgb(38, 86, 162);
-  border:1px solid rgb(38, 86, 162);
-  font-size:20px;
-}
-.button1{
-  background-color: rgb(38, 86, 162);
-  border-radius: 10px;
-  width:280px;
-  height:45px;
-  margin-top:5px;
-  margin-left:10px;
-  color:white;
-  font-size: 24px;
-  border:3px solid rgb(38, 86, 162);
-}
-.button2{
-  background-color: rgb(38, 86, 162);
-  border-radius: 10px;
-  width:280px;
-  height:45px;
-  margin-top:10px;
-  margin-left:10px;
-  color:white;
-  font-size: 24px;
-  border:3px solid rgb(38, 86, 162);
-}
+
 .about-text{
   margin-left: 20px;
   font-size: 40px;
 }
 .en{
   font-family: 'Caveat';
+}
+body{ overflow: hidden;}
+
+#login/register_form{
+width: 700px;
 }
