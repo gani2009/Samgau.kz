@@ -5,7 +5,7 @@
 }
 .grid{
   display: inline-grid;
-  grid-template-columns: 320px 1230px 1fr;
+  grid-template-columns: 320px 1230px 0px;
   grid-template-rows: 220px auto;
   grid-template-areas:
   "logo ban login"
