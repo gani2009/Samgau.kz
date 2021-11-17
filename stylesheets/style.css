@@ -67,6 +67,9 @@
 .en{
   font-family: 'Caveat';
 }
+body{
+ overflow: scroll; 
+}
 
 #login/register_form{
 width: 700px;
