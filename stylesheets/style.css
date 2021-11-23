@@ -20,11 +20,14 @@
 .banner{
   grid-area: ban;
   background-color: white;
+    border-bottom: 3px solid grey;
+
 }
 .login{
   grid-area: login;
   background-color: white;
-  border-bottom: 3px solid grey;
+    border-left: 3px solid grey;
+
 }
 .menu{
   grid-area: menu;
