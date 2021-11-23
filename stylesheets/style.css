@@ -9,30 +9,26 @@
   grid-template-rows: 220px auto;
   grid-template-areas:
   "logo ban login"
-  "menu main login";
+  "menu main ad";
 }
 
 .logo{
   grid-area: logo;
   background-color: white;
-  border-bottom: 3px solid grey;
 }
 .banner{
   grid-area: ban;
   background-color: white;
-    border-bottom: 3px solid grey;
 
 }
 .login{
   grid-area: login;
   background-color: white;
-    border-left: 3px solid grey;
 
 }
 .menu{
   grid-area: menu;
   background-color: white;
-  border-right: 3px solid grey;
   font-size: 30px;
 }
 .main {
