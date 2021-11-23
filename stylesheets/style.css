@@ -9,7 +9,7 @@
   grid-template-rows: 220px auto;
   grid-template-areas:
   "logo ban login"
-  "menu main main";
+  "menu main login";
 }
 
 .logo{
