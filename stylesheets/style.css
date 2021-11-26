@@ -14,7 +14,8 @@
 
 .logo{
   grid-area: logo;
-  background-color: green;
+  background-color: white;
+  padding: 7px;
 }
 .banner{
   grid-area: ban;
