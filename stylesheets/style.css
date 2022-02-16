@@ -11,6 +11,11 @@
   "logo ban login"
   "menu main ad";
 }
+.ad{
+ grid-area: ad;
+  background-color:white;
+  padding: 7px;
+}
 
 .logo{
   grid-area: logo;
